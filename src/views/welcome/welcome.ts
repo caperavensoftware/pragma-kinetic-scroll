@@ -4,9 +4,9 @@ export class Welcome {
     @bindable items;
 
     constructor() {
-        this.items = [100];
+        this.items = [1000];
 
-        for (var i = 0; i < 100; i++) {
+        for (var i = 0; i < 1000; i++) {
             this.items.push({
                 text: `Item Number: ${i}`
             });
