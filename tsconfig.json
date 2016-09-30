@@ -1,0 +1,25 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "noResolve": true,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "app"
+  },
+  "filesGlob": [
+    "./src/**/*.ts",
+    "./test/**/*.ts",
+    "./typings/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "app"
+  ]
+}
