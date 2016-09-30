@@ -20,12 +20,12 @@ describe('PragmaKineticScroll Tests', function() {
         expect(pragmaKineticScroll).to.not.be.null;
     });
 
-    it('attached', function() {
+    it('setup', function() {
         // Arrange
         const addEventListenerSpy = sinon.spy(element, "addEventListener");
 
         // Act
-        pragmaKineticScroll.attached();
+        pragmaKineticScroll.setup();
 
         // Assert
         assert(addEventListenerSpy.callCount == 6);
